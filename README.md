@@ -1,7 +1,10 @@
 # HVAC-System (2022)
 
 ## Project Scope and Content
-This was my first capstone project for a Computer Logic Class. The goal of this project is to design part of the controller to regulate temperature as part of the design of a thermostat. As required for all HVAC (Heating, Ventilation, and Air Conditioning) systems, the controller must be designed so that the equipment is not damaged. </br> </br>
+This was my first capstone project for a Computer Logic Class. The goal of this project is to design part of the controller to regulate temperature as part of the design of a thermostat. As required for all HVAC (Heating, Ventilation, and Air Conditioning) systems, the controller must be designed so that the equipment is not damaged. </br> 
+
+**Video Demonstration:** https://drive.google.com/drive/folders/1D_dnkTNlJX_HCwcfOP6r8hLabopwt1sF?usp=sharing 
+
 The controller has two inputs and two outputs. The inputs are R, for Raise the temperature, and L, to Lower the temperature. These are driven by two sources. There is a sensor that monitors the temperature and compares it to the temperature specified by the user. There is also the ability of the user to manually set R or L to override the current setting. The outputs are H for Heat, to turn on the heating system when it is too cold, and C for Cool, to turn on the cooling system when it is too hot. </br> </br>
 
 The inputs function as follows:
@@ -60,5 +63,5 @@ Based on the criterion, my first design is much better than the second design. I
    - While simulating the design in digital, it did not work properly. But, compared to the second design, the first design still was able to have less debugging necessary in order to fix it. In the second design, there are some simulations in which both the H and C would be 1, even though that state was never specified while designing the build. The first design does not have this issue
 
 
-### Video Demonstration: https://drive.google.com/drive/folders/1D_dnkTNlJX_HCwcfOP6r8hLabopwt1sF?usp=sharing 
+
 
